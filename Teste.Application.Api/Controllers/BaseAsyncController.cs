@@ -61,5 +61,32 @@ namespace Teste.Application.Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPut]
+        public async Task<IActionResult> Edit([FromBody] TEntityDto dto)
+        {
+            try
+            {
+                TEntity dados = _mapper.Map<TEntityDto, TEntity>(dto);
+                return Ok(await _serviceBase.UpdateAsync(dados));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Remove(TKey id)
+        {
+            try
+            {
+                return Ok(await _serviceBase.DeleteAsync(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

@@ -14,5 +14,9 @@ namespace Teste.Core.Domain.Interfaces
         Task<TEntity> GetByIdAsync(TKey id);
 
         Task<TEntity> SaveAsync(TEntity obj);
+
+        Task<TEntity> UpdateAsync(TEntity obj);
+
+        Task<bool> DeleteAsync(TKey id);
     }
 }

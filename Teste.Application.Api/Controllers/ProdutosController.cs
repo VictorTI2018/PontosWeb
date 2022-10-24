@@ -19,7 +19,7 @@ namespace Teste.Application.Api.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("{categoriaId}")]
+        [HttpGet("[action]/{categoriaId}")]
         public async Task<IActionResult> GetProdutosPorCategoria(int categoriaId)
         {
             return Ok(await _serviceProduts.GetProdutosPorCategoria(categoriaId));

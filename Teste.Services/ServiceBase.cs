@@ -20,5 +20,15 @@ namespace Teste.Services
         {
             return await _repoBase.SaveAsync(obj);
         }
+
+        public async Task<TEntity> UpdateAsync(TEntity obj)
+        {
+            return await _repoBase.UpdateAsync(obj);
+        }
+
+        public async Task<bool> DeleteAsync(TKey id)
+        {
+            return await _repoBase.DeleteAsync(id);
+        }
     }
 }

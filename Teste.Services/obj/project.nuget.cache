@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cbXuEpd6Z5gcbvpurDLUQzBhWKSSNNpTTk4K1z0oPJCAMpD18eWcOVdro2ttiPODGnVCU7pyISwf7fdVIeGQSA==",
+  "dgSpecHash": "6ZeS/5Tl5j4OpuYuuzqVpvsAO3c/xqWXohDeiOg2vq8jFBUXsZaSJHkPeVQhWrsUDXSePogR/V4JzHl27GMIvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Services\\Teste.Services.csproj",
+  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Services\\Teste.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VHSilva\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\VHSilva\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

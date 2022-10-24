@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Application.Api\\Teste.Application.Api.csproj": {}
+    "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Application.Api\\Teste.Application.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Application.Api\\Teste.Application.Api.csproj": {
+    "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Application.Api\\Teste.Application.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Application.Api\\Teste.Application.Api.csproj",
+        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Application.Api\\Teste.Application.Api.csproj",
         "projectName": "Teste.Application.Api",
-        "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Application.Api\\Teste.Application.Api.csproj",
+        "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Application.Api\\Teste.Application.Api.csproj",
         "packagesPath": "C:\\Users\\VHSilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Application.Api\\obj\\",
+        "outputPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Application.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VHSilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj"
+              "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj"
               },
-              "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj"
+              "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj"
               },
-              "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj": {
-                "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj"
+              "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj": {
+                "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Core.Domain\\Teste.Core.Domain.csproj": {
+    "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Core.Domain\\Teste.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Core.Domain\\Teste.Core.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Core.Domain\\Teste.Core.Domain.csproj",
         "projectName": "Teste.Core.Domain",
-        "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Core.Domain\\Teste.Core.Domain.csproj",
+        "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Core.Domain\\Teste.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\VHSilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Core.Domain\\obj\\",
+        "outputPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VHSilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,14 +159,14 @@
         }
       }
     },
-    "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj": {
+    "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
         "projectName": "Teste.Infra.CrossCutting",
-        "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\VHSilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VHSilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,11 +183,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj"
+              "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj"
               },
-              "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Services\\Teste.Services.csproj": {
-                "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Services\\Teste.Services.csproj"
+              "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Services\\Teste.Services.csproj": {
+                "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Services\\Teste.Services.csproj"
               }
             }
           }
@@ -227,14 +227,14 @@
         }
       }
     },
-    "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj": {
+    "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj",
         "projectName": "Teste.Infra.Data",
-        "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\VHSilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VHSilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -251,8 +251,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Core.Domain\\Teste.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Core.Domain\\Teste.Core.Domain.csproj"
+              "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Core.Domain\\Teste.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Core.Domain\\Teste.Core.Domain.csproj"
               }
             }
           }
@@ -306,14 +306,14 @@
         }
       }
     },
-    "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj": {
+    "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj",
         "projectName": "Teste.Infra.Shared",
-        "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj",
+        "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj",
         "packagesPath": "C:\\Users\\VHSilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Shared\\obj\\",
+        "outputPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VHSilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -330,8 +330,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Core.Domain\\Teste.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Core.Domain\\Teste.Core.Domain.csproj"
+              "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Core.Domain\\Teste.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Core.Domain\\Teste.Core.Domain.csproj"
               }
             }
           }
@@ -371,14 +371,14 @@
         }
       }
     },
-    "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Services\\Teste.Services.csproj": {
+    "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Services\\Teste.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Services\\Teste.Services.csproj",
+        "projectUniqueName": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Services\\Teste.Services.csproj",
         "projectName": "Teste.Services",
-        "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Services\\Teste.Services.csproj",
+        "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Services\\Teste.Services.csproj",
         "packagesPath": "C:\\Users\\VHSilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Services\\obj\\",
+        "outputPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VHSilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -395,8 +395,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Data\\Teste.Infra.Data.csproj"
+              "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Data\\Teste.Infra.Data.csproj"
               }
             }
           }

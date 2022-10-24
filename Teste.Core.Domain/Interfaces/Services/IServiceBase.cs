@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Teste.Core.Domain.Interfaces.Services
 {
@@ -13,5 +9,9 @@ namespace Teste.Core.Domain.Interfaces.Services
         Task<TEntity> GetByIdAsync(TKey id);
 
         Task<TEntity> SaveAsync(TEntity obj);
+
+        Task<TEntity> UpdateAsync(TEntity obj);
+
+        Task<bool> DeleteAsync(TKey id);
     }
 }

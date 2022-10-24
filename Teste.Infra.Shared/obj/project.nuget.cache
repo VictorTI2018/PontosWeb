@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uZNAmVVoqobOFu0iOYwgV6PzY3ToGlYjeaxmNqSTaNk1xBCV5yDPiKNZEPnTb5WE15RA4cGYbG8+TOpneNI7zQ==",
+  "dgSpecHash": "ZWpmAQ9cYDxBaYlBoV7HTl8QghstpmCA0gr3iedIRF0uK4lYm92o88NZ62Xa3QEC1FswE8ihKxELRDqGar9+cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj",
+  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.Shared\\Teste.Infra.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VHSilva\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\VHSilva\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"

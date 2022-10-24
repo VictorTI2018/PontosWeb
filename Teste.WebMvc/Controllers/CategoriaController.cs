@@ -20,5 +20,31 @@ namespace Teste.WebMvc.Controllers
         {
             //throw new NotImplementedException();
         }
+
+        protected override void ViewBagCreate()
+        {
+            //throw new NotImplementedException();
+        }
+
+        protected override void ViewBagEdit()
+        {
+           // throw new NotImplementedException();
+        }
+
+        public async Task<IActionResult> Remove(int id)
+        {
+            Categoria dados = await _serviceCategoria.GetByIdAsync(id);
+
+            if (dados != null) return View(_mapper.Map<CategoriaModel>(dados));
+            else return NotFound();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Remove(CategoriaModel model)
+        {
+            var response = await _serviceCategoria.DeleteAsync(model.Id);
+            if (response) return RedirectToAction(nameof(List));
+            return View(model);
+        }
     }
 }

@@ -15,8 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\VHSilva\Documents\PontosWeb\Teste.WebMvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Categoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Categoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Categoria/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Categoria/Remove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXFJlbW92ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Home/Index.cshtml]
@@ -27,8 +39,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Produtos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Produtos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Produtos/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Produtos/Remove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcUmVtb3ZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VHSilva/Documents/PontosWeb/Teste.WebMvc/Views/Shared/Error.cshtml]

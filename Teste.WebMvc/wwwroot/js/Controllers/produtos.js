@@ -3,12 +3,6 @@
 })
 
 
-function buscarProdutosPorCategoria() {
-    $.ajax({
-        method: "GET",
-        url: "",
-    })
-}
 
 function buscar() {
     $('#buscar').on("keyup", function () {

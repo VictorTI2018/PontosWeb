@@ -10,6 +10,9 @@ namespace Teste.WebMvc.Utils
         {
             CreateMap<CategoriaModel, Categoria>();
             CreateMap<Categoria, CategoriaModel>();
+
+            CreateMap<ProdutosModel, Produtos>();
+            CreateMap<Produtos, ProdutosModel>();
         }
     }
 }

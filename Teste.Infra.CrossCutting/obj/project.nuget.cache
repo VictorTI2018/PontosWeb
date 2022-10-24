@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cBMZpcZ0tdVUTmYv2avH+hqz9L4MtoPjgGJphiYJNeW+w2sBK9ValKDn5yR8zrg7xj1xdni/PKzdWVf9qjyhBA==",
+  "dgSpecHash": "9CofrG6wDJV4qG4lNH2mDV/4rZy4nf5j3ctUUCKAqMMT1azmSa7Gz4+HnQZ4NwkIXCkN+ug4IuWH6VeB3mqcGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VHSilva\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\VHSilva\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

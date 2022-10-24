@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yUy4lQvXNjRew7nhcVueXQslAi722WYjWWlsXmx5qzQeW62sPn7GBFzzzMcpUDEEmULNdRBiMFBCDJaFQLULEQ==",
+  "dgSpecHash": "EvnAQcpYwdYrW8NbxJA1nXw7EAHgxduX1X0Su0ekHDRc9d+diTCe/WffngftSdltvZ70TEAb6UOFVx6uf5MzXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.WebMvc\\Teste.WebMvc.csproj",
+  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.WebMvc\\Teste.WebMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VHSilva\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\VHSilva\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

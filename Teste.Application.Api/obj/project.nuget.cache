@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HhgibwEwgw0dM7Mpfauoy3tNz1AZUned94DscFwYsxSxS7MN5+5d4nGf37szSWcqYk/Jwt/L1PYJ9MPY+DHtkQ==",
+  "dgSpecHash": "FJ6DX3vgiXQ1OKv33gdqQzLLTPPU16h6BxmVuMBNp5Sh1E7/auAK3DqDnZThqonPARBrS11e67RfSnc9TxQEPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\Teste\\Teste.Application.Api\\Teste.Application.Api.csproj",
+  "projectFilePath": "C:\\Users\\VHSilva\\Documents\\PontosWeb\\Teste.Application.Api\\Teste.Application.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VHSilva\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\VHSilva\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

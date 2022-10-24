@@ -1,0 +1,85 @@
+﻿@model ProdutosModel
+
+@{
+    ViewData["Title"] = "Criar Produtos";
+}
+
+<form asp-action="Create">
+    <br />
+    <div class="card">
+
+        <div class="card-body">
+            <div class="card-title">
+                <h4>Criar Produtos</h4>
+            </div>
+            <hr />
+            <div class="row">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="col-2">
+                    <label asp-for="Nome" class="control-label">Nome</label>
+                </div>
+                <div class="col-10 pb-3">
+                    <input asp-for="Nome" class="form-control" placeholder="Nome d produto..." />
+                    <span asp-validation-for="Nome" class="text-damger"></span>
+                </div>
+                <div class="col-2">
+                    <label asp-for="Pontos" class="control-label">Pontos</label>
+                </div>
+                <div class="col-10 pb-3">
+                    <input asp-for="Pontos" class="form-control" placeholder="Pontos do produto..." />
+                    <span asp-validation-for="Pontos" class="text-damger"></span>
+                </div>
+                <div class="col-2">
+                    <label>Categorias</label>
+                </div>
+                <div class="col-10">
+                    <select asp-for="CategoriaId" id="categorias" name="CategoriaId" class="form-control">
+                    <option value="">[Selecione uma opção]</option>
+                    </select>
+
+                </div>
+                <br />
+                <br />
+                <div class="col-5 offset-2">
+                    <a asp-action="List" class="btn btn-primary form-control">
+                        Voltar
+                    </a>
+                </div>
+                <div class="col-5">
+                    <input type="submit" value="Criar" class="btn btn-success form-control" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script type="text/javascript">
+    $(document).ready(function () {
+            buscarCategorias()
+    }) 
+        function buscarCategorias() {
+            $.ajax({
+                url: `${local}/categoria`,
+                methods: 'GET',
+                contentType: 'application/json; charset=utf8',
+                dataType: 'json',
+                success: function (data) {
+                    $.each(data, function (i, value) {
+                        console.log(value)
+                        $("#categorias").append($('<option>', {
+                            text: value.nome,
+                            value: value.id
+                        }))
+                    })
+                },
+                error: function () {
+
+                }
+            })
+        }
+    </script>
+
+
+}
