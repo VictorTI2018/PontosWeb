@@ -1,0 +1,72 @@
+﻿@model X.PagedList.IPagedList<ProdutosModel>
+@using X.PagedList.Mvc.Bootstrap4.Core
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Listagem de Produtos";
+}
+
+@section Scripts {
+    <script type="text/javascript" src="@Url.Content("~/js/Controllers/produtos.js")" asp-append-version="true"></script>
+}
+
+
+
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between">
+                <div class="card-title">
+                    <h5>
+                        Listagem de Produtos
+                    </h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="mb-3">
+                            <input type="search" class="form-control" id="buscar" placeholder="Digite para buscar...">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <a asp-action="Create" class="btn btn-outline-success">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="table-list">
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                    <td>
+                        <a asp-action="Edit" class="btn btn-primary">
+                            <i class="fa fa-edit"></i>
+                        </a>
+                        <a asp-action="Edit" class="btn btn-danger">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="container">
+        Pagina @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("List", new { page }), Bootstrap4PagedListRenderOptions.ClassicPlusFirstAndLast)
+    </div>
+
+</div>
+
